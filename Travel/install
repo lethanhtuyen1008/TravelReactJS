@@ -1,0 +1,4 @@
+@babel/runtime antd autoprefixer axios chalk detect-port history immer nprogress 
+react react-bootstrap-sweetalert react-currency-format react-custom-scrollbars 
+react-dom react-native-web react-notifications react-placeholder react-redux 
+react-router-dom react-scripts react-scroll react-slick redux redux-sagaslick-carousel validator
