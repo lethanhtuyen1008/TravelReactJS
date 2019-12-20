@@ -1,0 +1,28 @@
+@base-color: white;
+.base-color {
+  background: @base-color !important;
+}
+.menu-pc{
+  display: block;
+}
+.header{
+  background: #fff !important;
+}
+.menu-mobile{
+  display: none;
+}
+.item-menu:hover{
+  background: #DDDDDD !important;
+  color: white;
+}
+.menu-pc .ant-menu-item-active:hover{
+  color: white !important;
+}
+@media only screen and (max-width: 480px){
+  .menu-pc{
+    display: none;
+  }
+  .menu-mobile{
+    display: block;
+  }
+}

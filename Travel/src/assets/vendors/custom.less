@@ -1,0 +1,94 @@
+html {
+  scroll-behavior: smooth;
+  height: 100%; overflow:auto;
+}
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+.sweet-alert {
+  .btn-link{
+    background: #fff;
+    border-color: red;
+    color: red;
+  }
+}
+.slick-slider {
+  margin-bottom: 0px;
+  .slick-next,
+  .slick-prev {
+    opacity: 0;
+    transition: all 300ms ease-in;
+  }
+  .slick-next {
+    right: 0px;
+  }
+  .slick-prev {
+    left: 0;
+    z-index: 999;
+  }
+  &:hover {
+    .slick-next,
+    .slick-prev {
+      opacity: 1;
+    }
+  }
+}
+.gx-loader-view-mask {
+  background: #fff;
+  position: absolute;
+  width: 100%;
+  z-index: 9999;
+  top: 0;
+  margin: 0px -16px;
+  opacity: 0.8;
+}
+.gx-background-white{
+  background: #fff !important;
+}
+#app-site {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+.loader {
+  position: relative;
+  margin: 0 auto;
+  width: 60px;
+  height: 100vh;
+
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: -ms-flex;
+  display: flex;
+
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+}
+
+.loading {
+  width: 120px;
+}
+
+.gx-font-size-12{
+  font-size: 12px !important;
+}
+.gx-font-size-18{
+  font-size: 18px !important;
+}
+
+.ft-form-ac {
+  .st-btn-login{
+    width: 100%;
+    padding: 10px 20px !important;
+  }
+}

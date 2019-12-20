@@ -1,0 +1,86 @@
+.slider {
+  padding: 0px !important;
+  height: auto;
+}
+.banner :hover {
+  background: #f85959 !important;
+  color: white !important;
+}
+.icon-banner:hover {
+  color: black;
+}
+
+.icon-banner {
+  font-size: 60px;
+  color: #088a68;
+}
+.slide-home {
+  background-image: url("http://thuthuatphanmem.vn/uploads/2018/06/18/hinh-nen-may-tinh-4k-binh-minh-tren-bien-xanh-dep_033012202.jpg");
+  height: 1200px;
+}
+.text-slider {
+  position: absolute;
+  z-index: 1;
+}
+.input-slide {
+  height: 70px;
+  width: 300px;
+}
+.input-slide .ant-input {
+  border-radius: 100px;
+}
+.btn_booke {
+  width: 100px;
+  height: 70px;
+}
+.text-search {
+  color: white;
+  padding-bottom: 10px;
+}
+.gx-text-20 {
+  font-size: 20px;
+  opacity: 0.8;
+}
+.btn_book {
+  height: 40px;
+  width: 130px;
+}
+.form-search {
+  padding-left: 200px;
+  padding-right: 70px;
+  font-family: "Poppins, Arial, sans-serif";
+  padding-top: 200px;
+}
+.text-search-ct {
+  font-size: 70px;
+}
+@media only screen and (max-width: 768px) {
+  .btn_booke {
+    width: 300px;
+    height: 50px;
+  }
+  .form-search {
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 30px;
+  }
+  .slider {
+    padding: 0px !important;
+    height: 600px;
+  }
+}
+@media only screen and (max-width: 368px) {
+  .btn_booke {
+    width: 300px;
+    height: 50px;
+  }
+  .form-search {
+    padding-left: 25px;
+    padding-right: 70px;
+    padding-top: 30px;
+  }
+  .slider {
+    padding: 0px !important;
+    height: 600px;
+  }
+}

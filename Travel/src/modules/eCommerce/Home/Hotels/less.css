@@ -1,0 +1,10 @@
+.text-title {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-weight: 700;
+  box-sizing: border-box;
+  line-height: 1.8;
+  font-weight: 300;
+  font-size: 35px;
+  color: #4d4d4d;
+}

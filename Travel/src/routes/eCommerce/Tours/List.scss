@@ -1,0 +1,27 @@
+.product-list {
+  border-bottom: 1px solid red;
+  color: red;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  padding-bottom: 5px;
+
+  .product-title-left {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+
+    .search-all-product {
+      font-weight: bold;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .product-list {
+
+    .product-title-left {
+      width: 60%;
+    }
+  }
+}
